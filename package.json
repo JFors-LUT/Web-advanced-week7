@@ -9,7 +9,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev-server": "tsc-watch --noClear -p ./tsconfig.json --onSuccess \"nodemon ./dist/index.js --ignore node_modules\""
+    "start": "tsc-watch --noClear -p ./tsconfig.json --onSuccess \"nodemon ./dist/index.js --ignore node_modules\""
   },
   "repository": {
     "type": "git",
